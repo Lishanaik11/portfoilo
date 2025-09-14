@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaLinkedin, FaTwitter, FaPhone, FaGithub } from 'react-icons/fa6';
+import { FaEnvelope, FaLinkedin, FaPhone, FaGithub } from 'react-icons/fa6';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -24,15 +24,7 @@ function Footer() {
           >
             <FaLinkedin size={22} />
           </a>
-          <a
-            href=""
-            className="footer-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-          >
-            <FaTwitter size={22} />
-          </a>
+
           <a
             href="https://github.com/Lishanaik11"
             className="footer-link"
@@ -57,3 +49,4 @@ function Footer() {
 
 
 export default Footer;
+

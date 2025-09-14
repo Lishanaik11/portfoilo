@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+Lisha Naik - Personal Portfolio & Projects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio and project showcase! This repository demonstrates my journey in web development and tech projects, highlighting my hands-on experience, skills, and academic achievements.
+This portfolio is built using React, featuring multiple pages, reusable components, and a clean, responsive design. It is fully deployed on Vercel for live access.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Live Demo & Repository**
+- **Live Site:** [https://portfoilo-ten-zeta.vercel.app/](https://portfoilo-ten-zeta.vercel.app/)  | 
+- **GitHub Repository:** [https://github.com/Lishanaik11/portfoilo](https://github.com/Lishanaik11/portfoilo)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Available Scripts
+Project Overview
+My portfolio includes three main sections, navigated by a dynamic routing system:
 
-In the project directory, you can run:
+About Me Page:
 
-### `npm start`
+Features a hero section with a brief introduction and a link to download my resume.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Includes sections for my About Me, Skills, and Education, providing a comprehensive overview of my background.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Highlights my academic achievements and the technical skills I've acquired, such as React, JavaScript, and Python.
+_____________________________________________________________________________________________________________________________________________________________________________________________
 
-### `npm test`
+Projects Page:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Showcases my web development projects, including "Runway Ready" and "Educational Website."
 
-### `npm run build`
+Projects can be filtered by category (Full Stack, Personal, Portfolio) to help users find what they're looking for.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Each project card displays the title, description, tech stack, and a live link.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Uses React state (useState) for dynamic filtering and an interactive UI.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_____________________________________________________________________________________________________________________________________________________________________________________________
 
-### `npm run eject`
+Contact Page:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+An interactive contact form with validation, allowing visitors to send a message directly.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Displays my contact information, including email, phone, and location.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Outlines my availability for new opportunities, making it easy for recruiters and collaborators to reach out.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Key Features & Concepts Applied
+React & Component-Based Architecture: The application is built with reusable components like Navbar, Footer, Home, and Project, making the codebase modular and maintainable.
 
-## Learn More
+State Management with Hooks: Leverages useState for managing component state (e.g., form inputs, page navigation, and project filters) and useContext for global state (e.g., theme toggling).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Responsive Design: The layout is designed using CSS Flexbox and CSS Grid to ensure a seamless user experience on both mobile and desktop devices.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Theme Toggling: Implements a dark/light mode using React Context and CSS variables, allowing users to customize their viewing experience.
 
-### Code Splitting
+Client-Side Routing: Uses simple state-based routing to switch between pages without reloading the application, providing a fast and smooth user experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Analyzing the Bundle Size
+Folder & Component Structure
+src/
+├── App.js         # Main application component & routing logic
+├── App.css        # Global styles
+├── Home.js        # About Me, skills, and education page
+├── Portfolio.js   # Projects showcase page
+├── Contact.js     # Contact form page
+├── Footer.js      # Global footer with social links
+├── Navbar.js      # Top navigation bar
+├── projects.js    # Project card component
+├── projectsData.js # Data file for project information
+├── theme.js       # Theme context for dark/light mode
+├── index.js       # App entry point
+├── index.css      # Base styles
+└── image/
+    └── portfolio.png # Profile image
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Technologies Used
+Frontend: React, JavaScript, HTML, CSS
 
-### Making a Progressive Web App
+State Management: React Hooks (useState, useContext)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Styling: CSS Flexbox, CSS Grid, CSS variables, react-icons
 
-### Advanced Configuration
+Deployment: Vercel
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📧 Contact
+Email: lishanaik11@gmail.com
 
-### Deployment
+GitHub: [https://github.com/Lishanaik11](https://github.com/Lishanaik11)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+LinkedIn: [https://www.linkedin.com/in/lisha-naik-20a761384](https://www.linkedin.com/in/lisha-naik-20a761384)

@@ -4,11 +4,11 @@ Welcome to my personal portfolio and project showcase!
 
 This repository demonstrates my journey in web development and tech projects, highlighting my hands-on experience, skills, and academic achievements.
 This portfolio is built using React, featuring multiple pages, reusable components, and a clean, responsive design. It is fully deployed on Vercel for live access.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Live Demo & Repository**
 - **Live Site:** [https://portfoilo-ten-zeta.vercel.app/](https://portfoilo-ten-zeta.vercel.app/)  
 - **GitHub Repository:** [https://github.com/Lishanaik11/portfoilo](https://github.com/Lishanaik11/portfoilo)
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Project Overview
 My portfolio includes three main sections, navigated by a dynamic routing system:
@@ -20,8 +20,7 @@ Features a hero section with a brief introduction and a link to download my resu
 Includes sections for my About Me, Skills, and Education, providing a comprehensive overview of my background.
 
 Highlights my academic achievements and the technical skills I've acquired, such as React, JavaScript, and Python.
-_____________________________________________________________________________________________________________________________________________________________________________________________
-
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Projects Page:
 
 Showcases my web development projects, including "Runway Ready" and "Educational Website."
@@ -42,7 +41,7 @@ Displays my contact information, including email, phone, and location.
 
 Outlines my availability for new opportunities, making it easy for recruiters and collaborators to reach out.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Key Features & Concepts Applied
 React & Component-Based Architecture: The application is built with reusable components like Navbar, Footer, Home, and Project, making the codebase modular and maintainable.
 
@@ -54,21 +53,47 @@ Theme Toggling: Implements a dark/light mode using React Context and CSS variabl
 
 Client-Side Routing: Uses simple state-based routing to switch between pages without reloading the application, providing a fast and smooth user experience.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Folder & Component Structure
-Your file structure appears as a single line of text because you are not using the correct Markdown formatting for code blocks or a file tree. This makes it difficult for others to read and understand your project's organization.
+Highlighted Project: Runway Ready
+Description: A dynamic e-commerce front-end application for a shoe collection, featuring a functional shopping cart, a product details modal, and a simulated chat component.
 
-To fix this, you need to format the file structure using a Markdown code block with proper indentation.
+Tech Stack: React, JavaScript, CSS
 
-### Correct Markdown for File Structure
+Key Learnings:
 
-You can create a clean, readable file structure by using a code block and a simple tree-like format.
+Implementing a state-based shopping cart to manage product quantities and total cost.
 
-Here is the correct way to format your file structure. You can copy and paste this code directly into your README.md file:
+Using React class components with lifecycle methods (componentDidMount, componentWillUnmount) to simulate a live user chat.
 
-```markdown
-## Folder & Component Structure
+Building a scalable user interface with reusable components.
+
+Handling form inputs and creating dynamic alerts for user feedback.
+
+live Link : [https://shoe-collection-kappa.vercel.app/](https://shoe-collection-kappa.vercel.app/#)
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Highlighted Project: Educational Website
+Description: A clean, single-page educational website designed to showcase a fictional educational program's courses and features, with a focus on simple, intuitive navigation.
+
+Tech Stack: React, JavaScript, CSS
+
+Key Learnings:
+
+Developing a modern, responsive website from scratch using a component-based approach.
+
+Applying a clear and professional layout to present information effectively.
+
+Implementing clean code practices and a logical folder structure to ensure maintainability.
+
+Focusing on user experience (UX) by creating a smooth and easy-to-navigate site
+
+
+live Link : [https://portfoilo-ten-zeta.vercel.app/#](https://portfoilo-ten-zeta.vercel.app/#)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Folder & Component Structure :
 
 ```
 
@@ -89,8 +114,8 @@ src/
 └── portfolio.png \# Profile image
 
 ```
-```
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Technologies Used
 Frontend: React, JavaScript, HTML, CSS
@@ -100,7 +125,7 @@ State Management: React Hooks (useState, useContext)
 Styling: CSS Flexbox, CSS Grid, CSS variables, react-icons
 
 Deployment: Vercel
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📧 Contact
 Email: lishanaik11@gmail.com

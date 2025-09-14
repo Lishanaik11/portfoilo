@@ -25,7 +25,7 @@ function Footer() {
             <FaLinkedin size={22} />
           </a>
           <a
-            href="https://twitter.com/lisha_naik"
+            href=""
             className="footer-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -54,5 +54,6 @@ function Footer() {
     </footer>
   );
 }
+
 
 export default Footer;

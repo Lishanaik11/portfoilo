@@ -24,8 +24,9 @@ const projects = [
     image: 'https://via.placeholder.com/150',
     category: 'Portfolio', // Changed from 'type' to 'category'
     technologies: ['React'],
-    link: 'https://lishanaik11.github.io/Portfolio/'
+    link: 'https://portfoilo-ten-zeta.vercel.app//'
   }
 ];
+
 
 export default projects;

@@ -57,21 +57,39 @@ Client-Side Routing: Uses simple state-based routing to switch between pages wit
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Folder & Component Structure
+Your file structure appears as a single line of text because you are not using the correct Markdown formatting for code blocks or a file tree. This makes it difficult for others to read and understand your project's organization.
+
+To fix this, you need to format the file structure using a Markdown code block with proper indentation.
+
+### Correct Markdown for File Structure
+
+You can create a clean, readable file structure by using a code block and a simple tree-like format.
+
+Here is the correct way to format your file structure. You can copy and paste this code directly into your README.md file:
+
+```markdown
+## Folder & Component Structure
+
+```
+
 src/
-├── App.js         # Main application component & routing logic
-├── App.css        # Global styles
-├── Home.js        # About Me, skills, and education page
-├── Portfolio.js   # Projects showcase page
-├── Contact.js     # Contact form page
-├── Footer.js      # Global footer with social links
-├── Navbar.js      # Top navigation bar
-├── projects.js    # Project card component
-├── projectsData.js # Data file for project information
-├── theme.js       # Theme context for dark/light mode
-├── index.js       # App entry point
-├── index.css      # Base styles
+├── App.js           \# Main application component & routing logic
+├── App.css          \# Global styles
+├── Contact.js       \# Contact form page
+├── Footer.js        \# Global footer with social links
+├── Home.js          \# About Me, skills, and education page
+├── Navbar.js        \# Top navigation bar
+├── Portfolio.js     \# Projects showcase page
+├── projects.js      \# Project card component
+├── projectsData.js  \# Data file for project information
+├── theme.js         \# Theme context for dark/light mode
+├── index.css        \# Base styles
+├── index.js         \# App entry point
 └── image/
-    └── portfolio.png # Profile image
+└── portfolio.png \# Profile image
+
+```
+```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Technologies Used

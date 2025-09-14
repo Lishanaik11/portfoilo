@@ -1,10 +1,12 @@
 Lisha Naik - Personal Portfolio & Projects
 
-Welcome to my personal portfolio and project showcase! This repository demonstrates my journey in web development and tech projects, highlighting my hands-on experience, skills, and academic achievements.
+Welcome to my personal portfolio and project showcase!
+
+This repository demonstrates my journey in web development and tech projects, highlighting my hands-on experience, skills, and academic achievements.
 This portfolio is built using React, featuring multiple pages, reusable components, and a clean, responsive design. It is fully deployed on Vercel for live access.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Live Demo & Repository**
-- **Live Site:** [https://portfoilo-ten-zeta.vercel.app/](https://portfoilo-ten-zeta.vercel.app/)  | 
+- **Live Site:** [https://portfoilo-ten-zeta.vercel.app/](https://portfoilo-ten-zeta.vercel.app/)  
 - **GitHub Repository:** [https://github.com/Lishanaik11/portfoilo](https://github.com/Lishanaik11/portfoilo)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

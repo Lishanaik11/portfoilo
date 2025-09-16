@@ -56,7 +56,7 @@ function Home() {
   ICLE's Motilal Jhunjhunwala College, Vashi, Navi Mumbai <br />
   HSC Board (77%) <br /><br/>
   Secondary Education (2021 – 2022) <br />
-  ASP Convert English High School <br />
+  ASP Convent English High School <br />
   SSC Board (81%).
 </p>
 
@@ -68,5 +68,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;
